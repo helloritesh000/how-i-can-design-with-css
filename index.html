@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+		div.parent{
+			width: 270px;
+		}
+        div.topRec {
+			width: 200px;
+			height: 50px;
+			display: inline-block;
+			background: yellow;
+			background-image: linear-gradient(-90deg, #ed5b06, #6262ff);
+			transform: skewX(35deg);
+	  }
+	  div.bottomRec {
+			width: 200px;
+			height: 50px;
+			display: inline-block;
+			background: blue;
+			background-image: linear-gradient(-90deg, #ed5b06, #6262ff);
+			transform: skewX(-35deg);
+			position: relative;
+			bottom: 4px;
+	  }
+	  div.textRec{
+			position: relative;
+			top: -92px;
+			width: 144px;
+			margin-left: 35px;
+			/* height: 40px;
+			background-color: orange;
+			background-image: linear-gradient(-90deg, red, blue);*/
+	  }
+    </style>
+</head>
+<body>
+    <div class="parent">
+		<div class="topRec">
+		</div>
+		<div class="bottomRec">
+		</div>
+		<div class="textRec">
+		<h2>3rd Meeting</h2>
+		</div>
+	</div>
+</body>
+</html>
